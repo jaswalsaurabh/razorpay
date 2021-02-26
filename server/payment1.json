@@ -1,0 +1,46 @@
+{
+    "entity": "event",
+    "account_id": "acc_GcEjzLre4r5SxF",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_Ge7AqQVdO8XBue",
+                "entity": "payment",
+                "amount": 9900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_Ge7Ahe5vDjrVaw",
+                "invoice_id": null,
+                "international": false,
+                "method": "wallet",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for nothing. Please give us some money",
+                "card_id": null,
+                "bank": null,
+                "wallet": "jiomoney",
+                "vpa": null,
+                "email": "sdfdsjfh2@ndsfdf.com",
+                "contact": "+918219676851",
+                "notes": [],
+                "fee": 234,
+                "tax": 36,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "transaction_id": null
+                },
+                "created_at": 1613886656
+            }
+        }
+    },
+    "created_at": 1613886658
+}
